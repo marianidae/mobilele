@@ -5,7 +5,7 @@ import org.softuni.mobilele.model.enums.ModelCategoryEnum;
 
 @Entity
 @Table(name="models")
-public class ModelEntity extends BaseEntity{
+public class ModelEntity extends BaseEntity {
 
     private String name;
 
@@ -50,5 +50,4 @@ public class ModelEntity extends BaseEntity{
                 ", brand=" + brand +
                 '}';
     }
-
 }
